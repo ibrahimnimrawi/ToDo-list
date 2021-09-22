@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do list</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub">
+      <div class="header">
+        <h1><span class="material-icons"> check_box </span> My Todo-s</h1>
+      </div>
+      <div class="form">
+        <form>
+          <input type="text" name="add" id="add-bar" placeholder="Add new .." />
+          <input type="button" value="Add" id="submit-btn" />
+        </form>
+      </div>
+      <hr />
+      <div class="filter-sort-container">
+        <div class="filter">
+          <label> Filter: </label>
+          <select id="check-filter">
+            <option value="All">All</option>
+            <option value="Checked">checked<Checked/option></option>
+            <option value="Un-checked">Un checked</option>
+          </select>
+        </div>
+        <div class="sort">
+          <label> Sort : </label>
+
+          <select id="check-sort">
+            <option value="ascending">Ascending<Checked/option></option>
+            <option value="descending">descending</option>
+          </select>
+        </div>
+        <span class="material-icons"> sort </span>
+      </div>
+      <div class="check" id="check">
+        <h3>Things ToDo: </h3>
+      
+      </div>
+    </div>
+    </div>
+    <script></script>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
